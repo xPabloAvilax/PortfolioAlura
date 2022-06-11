@@ -1,0 +1,87 @@
+.interests{
+    background: #F5F5F5;
+    font-family: 'Raleway', sans-serif;
+    padding: 3rem 0;
+    width: 100%;
+}
+
+.interests__title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #464646;
+    margin-bottom: 2rem;
+}
+.interests__container{
+    display: flex;
+    align-items: center;
+    
+}
+.interests__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.interests__list-card{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    margin: .75rem;
+    transition: linear 0.2;
+}
+.interests__list-card:hover{
+    box-shadow: 0px 0px 15px 8px rgba(8,100,255,0.39);
+}
+.interests__list-item{
+    padding: 2rem 5rem .50rem 1rem;
+}
+.interests__list-item img{
+    width: 35px;
+    height: 40px;
+}
+
+.interests__list-lenguage{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    font-size: .75rem;
+    font-weight: 700;
+}
+.title__hobbies{
+    margin-top: 3rem;
+}
+.container__hobbies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.img__hobbies{
+    width: 100px;
+    margin: 0.8rem;
+}
+
+@media screen and (min-width: 390px) {
+    .interests__list-item{
+        padding: 3rem 8rem .50rem 1rem;
+    }
+    .interests__title{
+        font-size: 1.6;
+    }
+}
+@media screen and (min-width: 1024px){
+    .interests__list-item{
+        padding: 4rem 10rem 35rem 1rem;
+    }
+    .interests__container{
+        justify-content: space-evenly;
+    }
+    .interests__list-item{
+        padding: 6rem 9rem 2rem 2rem;
+    }
+    .interests__title{
+        font-size: 2.2rem;
+    }
+    .container__hobbies{
+        justify-content: space-around;
+    }
+}

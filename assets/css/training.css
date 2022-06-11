@@ -1,0 +1,44 @@
+.training{
+    background: #EAF2FD;
+    font-family: 'Raleway', sans-serif;
+    padding: 3rem 0;
+}
+.training__title{
+    color: #464646;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3rem;   
+}
+.training__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.training__list-card{
+    border-radius: 3px;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    background: #ffffff;
+    padding: 3.5rem 2rem;
+    margin-bottom: 1.5rem;
+}
+.training__list-card:hover{
+    box-shadow: 0px 0px 15px 8px rgba(8,100,255,0.39);
+}
+.training__name{
+    margin-top: 4rem;
+    text-align: center;
+    font-weight: 700;
+}
+@media screen and (min-width: 390px){
+    .training__list{
+        justify-content: space-evenly;
+    }
+    .training__title{
+        font-size: 2.2rem;
+    }
+}
+
+
+

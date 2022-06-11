@@ -1,0 +1,111 @@
+.description{
+    padding: 3rem 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: initial;
+    line-height: 1.2;
+    color: #464646;
+}
+
+.description__img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.description__texto{    
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 1rem;
+}
+.description__texto-info{
+    /* margin: 1rem 0 ; */
+    font-size: 1.4rem;
+    font-weight: 700;
+} 
+/* .description__texto-info{
+    margin: 1rem 0 ;
+    font-size: 3rem;
+    font-weight: 700;
+} */
+.description__texto-race{
+    font-size: 1rem;
+}
+.description__container{
+    margin-right: 1rem;
+    align-items: center;
+    font-weight: 400;
+}
+
+.description__social{
+    display: flex;
+    flex-wrap: wrap;
+}
+.description__social-texto{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-right: 1.5%;
+}
+.description__social-link{
+    margin-left: .50rem;
+}
+.description__social-texto:hover{
+    color: #2A7AE4;
+    font-weight: 800;
+}
+
+
+@media screen and (min-width: 390px) {
+    .description__texto-info{
+        font-size: 1.5rem;
+    }
+    .description__texto-race{
+        font-size: 1.2rem;
+    }
+    .description__img{
+        width: 150px;
+        height: 150px;
+    }
+    .description__social-texto{
+        font-size: 1.1rem;
+ 
+    }
+    
+} 
+@media screen and (min-width: 768px){
+    .description{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .description__img{
+        width: 250px;
+        height: 250px;
+    }
+    .description__texto-info{
+        font-size: 1.8rem;
+    }
+    .description__texto-race{
+        font-size: 1.3rem;
+    }
+    .description__social-texto{
+        font-size: 1.1rem;
+
+    }
+
+}
+@media screen and (min-width: 1024px){
+    .description{
+        justify-content: space-evenly;
+    }
+    .description__img{
+        width: 450px;
+        height: 450px;
+    }
+    .description__texto-info{
+        font-size: 3rem;
+    }
+    .description__texto-race{
+        font-size: 2rem;
+    }
+    
+
+}

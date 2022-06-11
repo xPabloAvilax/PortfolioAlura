@@ -1,0 +1,38 @@
+.about-me{
+    background: #EAF2FD;
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    padding: 2rem 0;
+}
+
+.about-me__container{
+    width: 90%;
+}
+.about-me__title{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.about-me__text{
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;   
+}
+
+
+@media screen and (min-width: 390px) {
+    .about-me__title{
+        font-size: 1.8rem;
+    }
+    .about-me__text{
+        font-size: 1.3rem;   
+    }
+    
+} 
+@media screen and (min-width: 1024px){
+    .about-me__title{
+        font-size: 2.2rem;
+    }
+    .about-me__text{
+        font-size: 1.5rem;   
+    }
+}

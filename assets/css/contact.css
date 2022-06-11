@@ -1,0 +1,100 @@
+.contact{
+    background: #EAF2FD;
+    line-height: 1;
+    font-family:'Raleway', sans-serif;
+    
+}
+.contact__container{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    width: 100%;
+    
+}
+.contact__img{
+    display: none;
+    /* display: block; */
+    /* width: 464px;
+    height: 50px; */
+    
+}
+.contact__title{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.contact__text{
+    display: flex;
+    flex-direction: column;
+    /* width: 35vw; */
+    padding: 0 0 0 32px;
+    color: #464646;
+}
+.contact__text-info{
+    line-height: 25px;
+    font-weight: 500;
+}
+.input-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+
+}
+.contact__form-input{
+    height: 56px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.contact__form-input::placeholder{
+    visibility: hidden;
+}
+.input-label{
+    position: absolute;
+    top: 2rem;
+    left: 0.5rem;
+
+    transition: all 0.25s;
+
+}
+
+.contact__form-input:not(:placeholder-shown) + .input-label,
+.contact__form-input:focus + .input-label {
+  font-size: 0.7rem;
+  top: 0.7rem;
+  color: #2A7AE4;
+  transition: all 0.25s;
+}
+
+.contact__form-input:focus{
+    border-bottom: 2px solid #2A7AE4;
+} 
+.contact__form-textArea{
+    height: 8rem;
+    resize: none;
+    
+}
+.contact__form-button{
+    color: #EAF2FD;
+    background: #2A7AE4;
+    border: none;
+    margin: 2.75rem 0;
+    padding: .75rem 0.5rem;
+} 
+.error{
+    border-bottom: 2px solid #2A7AE4;
+}
+
+@media screen and (min-width: 1024px){
+    .contact__img{
+        display: block; 
+ 
+    }
+}
